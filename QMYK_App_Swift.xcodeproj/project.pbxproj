@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F40DB7FE217F063F00D54E58 /* FishManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F40DB7FD217F063F00D54E58 /* FishManager.swift */; };
+		F4738D5D2174444E0092C1D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738D5C2174444E0092C1D4 /* AppDelegate.swift */; };
+		F4738D5F2174444E0092C1D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738D5E2174444E0092C1D4 /* ViewController.swift */; };
+		F4738D622174444E0092C1D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4738D602174444E0092C1D4 /* Main.storyboard */; };
+		F4738D64217444510092C1D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4738D63217444510092C1D4 /* Assets.xcassets */; };
+		F4738D67217444510092C1D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4738D65217444510092C1D4 /* LaunchScreen.storyboard */; };
+		F4738D72217444510092C1D4 /* QMYK_App_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738D71217444510092C1D4 /* QMYK_App_SwiftTests.swift */; };
+		F4738D7D217444510092C1D4 /* QMYK_App_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738D7C217444510092C1D4 /* QMYK_App_SwiftUITests.swift */; };
+		F4738D8B217444CF0092C1D4 /* GameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738D8A217444CF0092C1D4 /* GameController.swift */; };
+		F4738D8D2174461C0092C1D4 /* KunCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738D8C2174461C0092C1D4 /* KunCell.swift */; };
+		F4738D8F217478110092C1D4 /* FishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738D8E217478110092C1D4 /* FishModel.swift */; };
+		F4738D912174835F0092C1D4 /* FishListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738D902174835F0092C1D4 /* FishListController.swift */; };
+		F4738D932174844B0092C1D4 /* FishListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738D922174844B0092C1D4 /* FishListCell.swift */; };
+		F4738D95217487030092C1D4 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4738D94217487030092C1D4 /* TransitionManager.swift */; };
+		F4B21CDD2179B94900FA6E6B /* GameFooter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B21CDC2179B94900FA6E6B /* GameFooter.swift */; };
+		F4B21CDF2179B96C00FA6E6B /* FishButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B21CDE2179B96C00FA6E6B /* FishButton.swift */; };
+		F4B21CE12179B98C00FA6E6B /* GameHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4B21CE02179B98C00FA6E6B /* GameHeader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4738D6E217444510092C1D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4738D512174444E0092C1D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4738D582174444E0092C1D4;
+			remoteInfo = QMYK_App_Swift;
+		};
+		F4738D79217444510092C1D4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4738D512174444E0092C1D4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4738D582174444E0092C1D4;
+			remoteInfo = QMYK_App_Swift;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F40DB7FD217F063F00D54E58 /* FishManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishManager.swift; sourceTree = "<group>"; };
+		F4738D592174444E0092C1D4 /* QMYK_App_Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QMYK_App_Swift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4738D5C2174444E0092C1D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4738D5E2174444E0092C1D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4738D612174444E0092C1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4738D63217444510092C1D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4738D66217444510092C1D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F4738D68217444510092C1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4738D6D217444510092C1D4 /* QMYK_App_SwiftTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QMYK_App_SwiftTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4738D71217444510092C1D4 /* QMYK_App_SwiftTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QMYK_App_SwiftTests.swift; sourceTree = "<group>"; };
+		F4738D73217444510092C1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4738D78217444510092C1D4 /* QMYK_App_SwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QMYK_App_SwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4738D7C217444510092C1D4 /* QMYK_App_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QMYK_App_SwiftUITests.swift; sourceTree = "<group>"; };
+		F4738D7E217444510092C1D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4738D8A217444CF0092C1D4 /* GameController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameController.swift; sourceTree = "<group>"; };
+		F4738D8C2174461C0092C1D4 /* KunCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KunCell.swift; sourceTree = "<group>"; };
+		F4738D8E217478110092C1D4 /* FishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishModel.swift; sourceTree = "<group>"; };
+		F4738D902174835F0092C1D4 /* FishListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishListController.swift; sourceTree = "<group>"; };
+		F4738D922174844B0092C1D4 /* FishListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishListCell.swift; sourceTree = "<group>"; };
+		F4738D94217487030092C1D4 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		F4B21CDC2179B94900FA6E6B /* GameFooter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameFooter.swift; sourceTree = "<group>"; };
+		F4B21CDE2179B96C00FA6E6B /* FishButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FishButton.swift; sourceTree = "<group>"; };
+		F4B21CE02179B98C00FA6E6B /* GameHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameHeader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4738D562174444E0092C1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4738D6A217444510092C1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4738D75217444510092C1D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4738D502174444E0092C1D4 = {
+			isa = PBXGroup;
+			children = (
+				F4738D5B2174444E0092C1D4 /* QMYK_App_Swift */,
+				F4738D70217444510092C1D4 /* QMYK_App_SwiftTests */,
+				F4738D7B217444510092C1D4 /* QMYK_App_SwiftUITests */,
+				F4738D5A2174444E0092C1D4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4738D5A2174444E0092C1D4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4738D592174444E0092C1D4 /* QMYK_App_Swift.app */,
+				F4738D6D217444510092C1D4 /* QMYK_App_SwiftTests.xctest */,
+				F4738D78217444510092C1D4 /* QMYK_App_SwiftUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4738D5B2174444E0092C1D4 /* QMYK_App_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				F4738D5C2174444E0092C1D4 /* AppDelegate.swift */,
+				F4738D94217487030092C1D4 /* TransitionManager.swift */,
+				F4738D5E2174444E0092C1D4 /* ViewController.swift */,
+				F40DB7FD217F063F00D54E58 /* FishManager.swift */,
+				F4738D8E217478110092C1D4 /* FishModel.swift */,
+				F4B21CDE2179B96C00FA6E6B /* FishButton.swift */,
+				F4738D8A217444CF0092C1D4 /* GameController.swift */,
+				F4B21CE02179B98C00FA6E6B /* GameHeader.swift */,
+				F4B21CDC2179B94900FA6E6B /* GameFooter.swift */,
+				F4738D8C2174461C0092C1D4 /* KunCell.swift */,
+				F4738D902174835F0092C1D4 /* FishListController.swift */,
+				F4738D922174844B0092C1D4 /* FishListCell.swift */,
+				F4738D602174444E0092C1D4 /* Main.storyboard */,
+				F4738D63217444510092C1D4 /* Assets.xcassets */,
+				F4738D65217444510092C1D4 /* LaunchScreen.storyboard */,
+				F4738D68217444510092C1D4 /* Info.plist */,
+			);
+			path = QMYK_App_Swift;
+			sourceTree = "<group>";
+		};
+		F4738D70217444510092C1D4 /* QMYK_App_SwiftTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4738D71217444510092C1D4 /* QMYK_App_SwiftTests.swift */,
+				F4738D73217444510092C1D4 /* Info.plist */,
+			);
+			path = QMYK_App_SwiftTests;
+			sourceTree = "<group>";
+		};
+		F4738D7B217444510092C1D4 /* QMYK_App_SwiftUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4738D7C217444510092C1D4 /* QMYK_App_SwiftUITests.swift */,
+				F4738D7E217444510092C1D4 /* Info.plist */,
+			);
+			path = QMYK_App_SwiftUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4738D582174444E0092C1D4 /* QMYK_App_Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4738D81217444510092C1D4 /* Build configuration list for PBXNativeTarget "QMYK_App_Swift" */;
+			buildPhases = (
+				F4738D552174444E0092C1D4 /* Sources */,
+				F4738D562174444E0092C1D4 /* Frameworks */,
+				F4738D572174444E0092C1D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QMYK_App_Swift;
+			productName = QMYK_App_Swift;
+			productReference = F4738D592174444E0092C1D4 /* QMYK_App_Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4738D6C217444510092C1D4 /* QMYK_App_SwiftTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4738D84217444510092C1D4 /* Build configuration list for PBXNativeTarget "QMYK_App_SwiftTests" */;
+			buildPhases = (
+				F4738D69217444510092C1D4 /* Sources */,
+				F4738D6A217444510092C1D4 /* Frameworks */,
+				F4738D6B217444510092C1D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4738D6F217444510092C1D4 /* PBXTargetDependency */,
+			);
+			name = QMYK_App_SwiftTests;
+			productName = QMYK_App_SwiftTests;
+			productReference = F4738D6D217444510092C1D4 /* QMYK_App_SwiftTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4738D77217444510092C1D4 /* QMYK_App_SwiftUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4738D87217444510092C1D4 /* Build configuration list for PBXNativeTarget "QMYK_App_SwiftUITests" */;
+			buildPhases = (
+				F4738D74217444510092C1D4 /* Sources */,
+				F4738D75217444510092C1D4 /* Frameworks */,
+				F4738D76217444510092C1D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4738D7A217444510092C1D4 /* PBXTargetDependency */,
+			);
+			name = QMYK_App_SwiftUITests;
+			productName = QMYK_App_SwiftUITests;
+			productReference = F4738D78217444510092C1D4 /* QMYK_App_SwiftUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4738D512174444E0092C1D4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = aNever.all;
+				TargetAttributes = {
+					F4738D582174444E0092C1D4 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F4738D6C217444510092C1D4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F4738D582174444E0092C1D4;
+					};
+					F4738D77217444510092C1D4 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F4738D582174444E0092C1D4;
+					};
+				};
+			};
+			buildConfigurationList = F4738D542174444E0092C1D4 /* Build configuration list for PBXProject "QMYK_App_Swift" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4738D502174444E0092C1D4;
+			productRefGroup = F4738D5A2174444E0092C1D4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4738D582174444E0092C1D4 /* QMYK_App_Swift */,
+				F4738D6C217444510092C1D4 /* QMYK_App_SwiftTests */,
+				F4738D77217444510092C1D4 /* QMYK_App_SwiftUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4738D572174444E0092C1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4738D67217444510092C1D4 /* LaunchScreen.storyboard in Resources */,
+				F4738D64217444510092C1D4 /* Assets.xcassets in Resources */,
+				F4738D622174444E0092C1D4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4738D6B217444510092C1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4738D76217444510092C1D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4738D552174444E0092C1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4738D95217487030092C1D4 /* TransitionManager.swift in Sources */,
+				F4B21CDD2179B94900FA6E6B /* GameFooter.swift in Sources */,
+				F4738D5F2174444E0092C1D4 /* ViewController.swift in Sources */,
+				F4738D8B217444CF0092C1D4 /* GameController.swift in Sources */,
+				F4738D8D2174461C0092C1D4 /* KunCell.swift in Sources */,
+				F4B21CE12179B98C00FA6E6B /* GameHeader.swift in Sources */,
+				F4738D8F217478110092C1D4 /* FishModel.swift in Sources */,
+				F4738D5D2174444E0092C1D4 /* AppDelegate.swift in Sources */,
+				F4B21CDF2179B96C00FA6E6B /* FishButton.swift in Sources */,
+				F40DB7FE217F063F00D54E58 /* FishManager.swift in Sources */,
+				F4738D932174844B0092C1D4 /* FishListCell.swift in Sources */,
+				F4738D912174835F0092C1D4 /* FishListController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4738D69217444510092C1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4738D72217444510092C1D4 /* QMYK_App_SwiftTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4738D74217444510092C1D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4738D7D217444510092C1D4 /* QMYK_App_SwiftUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4738D6F217444510092C1D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4738D582174444E0092C1D4 /* QMYK_App_Swift */;
+			targetProxy = F4738D6E217444510092C1D4 /* PBXContainerItemProxy */;
+		};
+		F4738D7A217444510092C1D4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4738D582174444E0092C1D4 /* QMYK_App_Swift */;
+			targetProxy = F4738D79217444510092C1D4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4738D602174444E0092C1D4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4738D612174444E0092C1D4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F4738D65217444510092C1D4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4738D66217444510092C1D4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4738D7F217444510092C1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4738D80217444510092C1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F4738D82217444510092C1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VXZLE4BR9X;
+				INFOPLIST_FILE = QMYK_App_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aNever.QMYK-App-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F4738D83217444510092C1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VXZLE4BR9X;
+				INFOPLIST_FILE = QMYK_App_Swift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aNever.QMYK-App-Swift";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F4738D85217444510092C1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VXZLE4BR9X;
+				INFOPLIST_FILE = QMYK_App_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aNever.QMYK-App-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QMYK_App_Swift.app/QMYK_App_Swift";
+			};
+			name = Debug;
+		};
+		F4738D86217444510092C1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VXZLE4BR9X;
+				INFOPLIST_FILE = QMYK_App_SwiftTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aNever.QMYK-App-SwiftTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QMYK_App_Swift.app/QMYK_App_Swift";
+			};
+			name = Release;
+		};
+		F4738D88217444510092C1D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VXZLE4BR9X;
+				INFOPLIST_FILE = QMYK_App_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aNever.QMYK-App-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QMYK_App_Swift;
+			};
+			name = Debug;
+		};
+		F4738D89217444510092C1D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VXZLE4BR9X;
+				INFOPLIST_FILE = QMYK_App_SwiftUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "aNever.QMYK-App-SwiftUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QMYK_App_Swift;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4738D542174444E0092C1D4 /* Build configuration list for PBXProject "QMYK_App_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4738D7F217444510092C1D4 /* Debug */,
+				F4738D80217444510092C1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4738D81217444510092C1D4 /* Build configuration list for PBXNativeTarget "QMYK_App_Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4738D82217444510092C1D4 /* Debug */,
+				F4738D83217444510092C1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4738D84217444510092C1D4 /* Build configuration list for PBXNativeTarget "QMYK_App_SwiftTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4738D85217444510092C1D4 /* Debug */,
+				F4738D86217444510092C1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4738D87217444510092C1D4 /* Build configuration list for PBXNativeTarget "QMYK_App_SwiftUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4738D88217444510092C1D4 /* Debug */,
+				F4738D89217444510092C1D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4738D512174444E0092C1D4 /* Project object */;
+}
