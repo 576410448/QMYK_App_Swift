@@ -2,8 +2,8 @@
 全民养鲲_Swift
 
 ## 如图
-* https://github.com/576410448/QMYK_App_Swift/blob/master/QMYK_IMG/1544066614078.jpg?raw=true
-* https://github.com/576410448/QMYK_App_Swift/blob/master/QMYK_IMG/WX20181207-105520@2x.png?raw=true
+* ![image](https://github.com/576410448/QMYK_App_Swift/blob/master/QMYK_IMG/1544066614078.jpg?raw=true)
+* ![image](https://github.com/576410448/QMYK_App_Swift/blob/master/QMYK_IMG/WX20181207-105520@2x.png?raw=true)
 
 ## 视图：
 * collectionview                       展示鱼池
